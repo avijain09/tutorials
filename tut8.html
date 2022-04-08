@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: yellowgreen;
+        }
+
+        .avi {
+
+            border: 3px solid black;
+            width: 500px;
+            margin: auto;
+            background-color: aqua;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            border: 4px solid black;
+            border-radius: 3px;
+            background-color: aquamarine;
+            margin: auto;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>FORM FOR COLLEGE</h2>
+    <form action="backend.php" class="avi">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            Roll no. : <input type="number" name="myno.">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Date of birth: <input type="date" name="mydate">
+        </div>
+        <br>
+        <div>
+            Gender : male <input type="radio" name="mygender"> female <input type="radio" name="mygender"> other: <input
+                type="radio" name="mygender" id="">
+        </div>
+        <br>
+        <div>
+            <label for="college">College :</label>
+            <select name="mycollege" id="college">
+                <option value="IIT ROORKEE">IIT ROORKEE</option>
+                <option value="IIT DELHI" selected>IIT DELHI</option>
+                <option value="IIT madras">IIT madras</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself:
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <br>
+        <div>
+            Are you eligible? <input type="checkbox" name="" checked>
+        </div>
+        <br>
+        <input type="submit" value="Submit now">
+        <br>
+        <br>
+        <input type="reset" value="Reset ">
+
+    </form>
+</body>
+
+</html>
