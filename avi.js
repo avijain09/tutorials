@@ -4,7 +4,7 @@ function login(token) {
     }, 50);
     setTimeout(() => {
     location.reload();
-    }, 2500);
+    }, 250);
     }
     
     login('OTQzMTA0MzU1NjU2MTYzMzM4.YhvOSQ.KsIfaDNtfqmhzT7fG8NCgmc9hII')
